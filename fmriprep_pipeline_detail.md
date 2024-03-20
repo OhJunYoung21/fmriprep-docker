@@ -19,12 +19,15 @@
 
 ---
 
-#### Brain Extraxtion
+### Brain Extraxtion
 
 위 과정은 단순하게 생각해서, 주어지는 뇌 영상 데이터에서 두개골부분을 제거한다고 보면 된다. fmriprep에서는 antsBrainExtraction.sh를 사용하며, FSL에서는 BET를 사용하여 진행한다.
 
-#### Brain Tissue Segmentation
+### Brain Tissue Segmentation
 
 위 과정은 brain mask를 만들고, 뇌 마스크를 토대로 뇌의 특정 영역을 구별해주는 것이다. 뇌 마스크는 여러가지 방법으로 만들 수 있는데, 기존의 해부학적 지식을 토대로 만들 수도 있지만, 딥러닝기술을 적용시켜 컴퓨터가 스스로 raw data를 보고 부위별로 구별해낼 수도 있다.
 
 결과물은 아래의 사진과 같다.
+![sub-01_dseg](https://github.com/OhJunYoung21/fmriprep-docker/assets/81908471/d9d14545-74ad-467e-907f-b02f0449939c)
+
+### Spatial Normalization(공간정규화)

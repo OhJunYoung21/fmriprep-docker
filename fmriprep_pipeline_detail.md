@@ -31,3 +31,6 @@
 ![sub-01_dseg](https://github.com/OhJunYoung21/fmriprep-docker/assets/81908471/d9d14545-74ad-467e-907f-b02f0449939c)
 
 ### Spatial Normalization(공간정규화)
+---
+### BOLD preprocessing
+---

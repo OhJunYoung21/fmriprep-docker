@@ -19,7 +19,7 @@
 
 ---
 
-### Brain Extraxtion
+### Brain Extraction
 
 위 과정은 단순하게 생각해서, 주어지는 뇌 영상 데이터에서 두개골부분을 제거한다고 보면 된다. fmriprep에서는 antsBrainExtraction.sh를 사용하며, FSL에서는 BET를 사용하여 진행한다.
 
@@ -34,3 +34,4 @@
 ---
 ### BOLD preprocessing
 ---
+BOLD preprocessing이란, fMRI결과 주어지는 BOLD signal에서 잡음을 제거하는 과정이다. task와 연관이 없는 BOLD signal이 있을 수 있는데, 위 같은 경우를 고려하여 BOLD signal을 정제하는 과정을 말한다. 

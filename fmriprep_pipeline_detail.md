@@ -48,7 +48,8 @@ BOLD preprocessing에는 HeadMotion correction, SliceTiming correction등이 사
 
 ~~~MarkDown
 This workflow estimates a reference image for a BOLD series as follows
-: When T1-saturation effects (“dummy scans” or non-steady state volumes) are detected, they are averaged and used as reference due to their superior tissue contrast.
+: When T1-saturation effects (“dummy scans” or non-steady state volumes) are detected,
+they are averaged and used as reference due to their superior tissue contrast.
 ~~~
 
 위 말은 물론 사전적으로 해석할 수도 있겠지만, 내 식대로 설명하자면 fMRI 촬영초기에는 조직이완으로 인해 BOLD signal이 제대로 관측되지 않는다(왜곡된다). 그렇지만 해부학적인 부분은 영향을 받지 않기 때문에 해당 이미지를 reference 이미지로 삼는 것이다. 좀 더 직관적으로 설명하자면 fMRI 극 초기에 촬영된 영상을 기준점으로 삼고, 시간에 따라 두개골의 움직임이 감지되면 reference이미지를 기준으로 다시 두개골의 위치를 조정하는 것이다. 마치 우리가 줄을 설때 맨 앞사람을 기준으로 삼고 줄을 맞추는 것과 동일한 원리이다.

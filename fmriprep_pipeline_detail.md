@@ -53,3 +53,11 @@ they are averaged and used as reference due to their superior tissue contrast.
 ~~~
 
 위 말은 물론 사전적으로 해석할 수도 있겠지만, 내 식대로 설명하자면 fMRI 촬영초기에는 조직이완으로 인해 BOLD signal이 제대로 관측되지 않는다(왜곡된다). 그렇지만 해부학적인 부분은 영향을 받지 않기 때문에 해당 이미지를 reference 이미지로 삼는 것이다. 좀 더 직관적으로 설명하자면 fMRI 극 초기에 촬영된 영상을 기준점으로 삼고, 시간에 따라 두개골의 움직임이 감지되면 reference이미지를 기준으로 다시 두개골의 위치를 조정하는 것이다. 마치 우리가 줄을 설때 맨 앞사람을 기준으로 삼고 줄을 맞추는 것과 동일한 원리이다.
+
+## Slice Timing Correction
+
+Slice Timing correction이란 데이터를 획득하는 시간차에 의해서 BOLD signal이 달라지는 것 처럼 보여지는 오류를 막기 위함이다. 예를 들어서 뇌의 특정부위가 활성화 되는지를 보기 위한 실험을 진행한다고 하자. fMRI는 기본적으로 2차원 데이터를 쌓아서 3차원 데이터를 만드는데. 어떤 자극이 주어졌을 때 맨 처음보다 시간이 지날수록 측정되는 BOLD signal은 달라질것이다.
+
+⬇️자세한 설명은 아래의 유튜브 링크를 참조하자.⬇️
+
+[Slice Timing Correction](https://www.youtube.com/watch?v=JbRpghuQWB4&t=314s)

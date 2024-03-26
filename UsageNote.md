@@ -13,7 +13,8 @@ fmriprep-docker <bids_dir><output_dir><analysis_level>
 * analysis_level : default값으로 participant를 입력합니다.
 
 
-### 그 외의 옵션들
+
+
 
 
 
